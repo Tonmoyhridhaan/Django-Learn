@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def employee(request):
-    employee = "This is our employee page"
+    employee = "This is our employee page check"
     return HttpResponse(employee)
 def profile(request):
     profile = "This is my profile page"
