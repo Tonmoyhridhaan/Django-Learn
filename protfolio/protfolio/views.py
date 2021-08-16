@@ -6,6 +6,7 @@ def home(request):
         'name' : 'Tonmoy Barua',
         'age' : 22,
         'phone' : '01777303837',
+        'skills' : ['CP','PS','DEV']
     }
     return render(request,'index.html',text)
 

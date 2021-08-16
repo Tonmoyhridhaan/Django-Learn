@@ -10,5 +10,10 @@
     <p>Name: {{name}}</p><br>
     <p>Age: {{age}} </p><br>
     <p>Phone: {{phone}}</p><br>
+    <ul class='list'>
+      {% for s in skills %}
+        <li class='list-item'>{{s}}</li>
+      {% endfor %}
+    </ul>
   </div>
 {%endblock%}
